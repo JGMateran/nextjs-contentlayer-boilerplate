@@ -19,8 +19,14 @@
       "@/components/*": ["./components/*"],
       "@/lib/*": ["./lib/*"],
       "@/ui/*": ["./ui/*"],
+      "@/contentlayer/generated": ["./.contentlayer/generated"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts", 
+    "**/*.ts", 
+    "**/*.tsx",
+    ".contentlayer/generated"
+  ],
   "exclude": ["node_modules"]
 }
